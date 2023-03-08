@@ -1,0 +1,2 @@
+- ## [Подробный гайд установки Windows 11](https://github.com/anejolov/steam-deck-windows-wiki-rus/wiki)
+- ## [Программа управления драйверами](https://github.com/anejolov/WinDeckHelper)
