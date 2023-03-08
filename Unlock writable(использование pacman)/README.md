@@ -1,14 +1,14 @@
 1.	### Первое, что нам нужно сделать, это сделать системный раздел Steam Deck доступным для записи. Для этого существует официальная команда:
--	sudo steamos-readonly disable
+>	sudo steamos-readonly disable
 	
 2.	### Инициализируйте связку ключей pacman:
--	sudo pacman-key --init
+>	sudo pacman-key --init
 	
 3.	### Заполните связку ключей pacman ключами Arch Linux по умолчанию:
--	sudo pacman-key --populate archlinux
+>	sudo pacman-key --populate archlinux
 	
 4.	### Обновление и модернизация системных пакетов:
--	sudo pacman -Syu
+>	sudo pacman -Syu
 	
 5.	### Готово! Теперь вы можете установить пакеты ArchLinux на Steam Deck. Установка осуществляется командой:
--	sudo pacman -S <нужный софт>
+>	sudo pacman -S <нужный софт>
