@@ -17,6 +17,6 @@
 >	sudo pacman -S <нужный софт>
 >
 ### PS.  Если У вас ошибка типа "invalid or corrupted package (PGP signature)", то выполните:
->	sudo pacman-key --init
->	sudo pacman-key --populate archlinux
+>	sudo pacman-key --init &&
+>	sudo pacman-key --populate archlinux &&
 >	sudo pacman-key --populate holo
