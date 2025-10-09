@@ -15,3 +15,8 @@
 	
 ### 5.  Готово! Теперь вы можете установить пакеты ArchLinux на Steam Deck. Установка осуществляется командой:
 >	sudo pacman -S <нужный софт>
+>
+### PS.  Если У вас ошибка типа "invalid or corrupted package (PGP signature)", то выполните:
+>	sudo pacman-key --init
+>	sudo pacman-key --populate archlinux
+>	sudo pacman-key --populate holo
